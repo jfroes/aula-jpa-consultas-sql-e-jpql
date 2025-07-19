@@ -43,7 +43,7 @@ public class Person {
     }
 
     public Double getSalary() {
-        return salary;
+        return this.salary;
     }
 
     public void setSalary(Double salary) {
