@@ -13,8 +13,8 @@ public class DepartmentDTO {
     }
 
     public DepartmentDTO(Department entity) {
-        this.id = entity.getId();
-        this.name = entity.getName();
+        id = entity.getId();
+        name = entity.getName();
     }
 
     public Long getId() {
